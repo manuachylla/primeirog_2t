@@ -63,3 +63,21 @@ li a:hover {
    background: rgb(209, 193, 163);
    color: black;
 }
+#carro {
+    width: 15%;
+}
+.caixaCarro {
+   position: absolute;
+   top: 45px;
+   left: 0;
+   width: 90%;
+   height: 140px;
+   background: #4e8b31;
+   margin: 20px;
+   border-color: red;
+   border-width: 20px;
+   border-style: solid;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
