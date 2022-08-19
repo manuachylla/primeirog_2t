@@ -1,86 +1,39 @@
 body {
-  background: violet;
+   background: #9222a8;
 }
 h1 {
-  text-align: center;
+   text-align: center;
 }
-.caixa1 {
-  position: absolute;
-  background: purple;
-  color: #FFFFFF;
-  width: 200px;
-  height: 200px;
-  left: 50%
-}
-.caixa2 {
-  position: absolute;
-  background: pink;
-  color: #FFFFFF
-  width: 200px;
-  height: 200px;
-  left: 60%;
-}
+
 .menuPrincipal {
-   position: relative;
+   position: absolute;
    top: 0;
-   left: 0%;
-   width:100%;
-   height: 80px;
-   background: rgb(138, 250, 216);
-   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   left: 0;
+   width: 100%;
+   height: 45px;
+   background: rgb(207, 108, 231);
+   font-family: 'Courier New', Courier, monospace;
 }
+
 nav ul {
-list-style-type: none;
-margin: 0%;
-padding: 0%;
-overflow: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: 0;
 }
 li {
-  float: left;
+   float: left;
 }
 li a {
-  display: block;
-  color: #0c0a0a;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   display: block;
+   color: rgb(232, 63, 238);
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-family: 'Courier New', Courier, monospace;
 }
 li a:hover {
-  background: blue;
-  color: rgb(250, 242, 242);
+   background: rgb(209, 193, 163);
+   color: black;
 }
-#among {
-  width: 30%;
-}
-.caixaAmong {
-  position: absolute;
-  top: 80px;
-  left: 0;
-  width: 50%;
-  height: 200px;
-  background: blue;
-  margin: 20px;
-  border-color:palevioletred;
-  border-width: 20px;
-  border-style: solid;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-}
-.rodape {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  left: 0;
-  height: 30px;
-  background: rgb(45, 199, 191);
-  color: rgb(233, 233, 233);
-  display: flex;
-  justify-content: center;
-  font-size: 22px;
-}
-.conteudo {
-  position: relative;
-  top: 25px;
-}
+
