@@ -36,4 +36,62 @@ li a:hover {
    background: rgb(209, 193, 163);
    color: black;
 }
-
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #0c0a0a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li a:hover {
+  background: blue;
+  color: rgb(250, 242, 242);
+}
+#among {
+  width: 30%;
+}
+.caixaAmong {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  width: 50%;
+  height: 200px;
+  background: blue;
+  margin: 20px;
+  border-color:palevioletred;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.rodape {
+  position: absolute;
+  top: 120%;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 30px;
+  background: rgb(45, 199, 191);
+  color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
+.conteudo {
+  position: relative;
+  top: 5px;
+}
+h3 {
+  font-size: 22px;
+}
+#desigualdade  {
+  width: 25%;
+  position: absolute;
+  right:20px;
+  top: 50px;
+}
